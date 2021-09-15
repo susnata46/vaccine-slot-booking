@@ -1,0 +1,78 @@
+#firstp {
+    border: 2px solid red;
+}
+body {
+    /*background: url("bcd.jpg");*/
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+#special {
+    background: yellow;
+    border-style: dashed;
+}
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+button {
+    background-color: lightgreen; /* Green */
+    border: 2px solid green;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+otpText {
+    background-color: darkgreen; /* Green */
+    border: 2px solid green;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+h3 {
+    font-style: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px lightgray;
+}
+
+.para {
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+
+.date {
+    color :#3498db;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#container {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: Source Sans pro ;
+    justify-content: center;
+    align-content: center;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
